@@ -1,0 +1,19 @@
+GET https://7lxyqs-3000.csb.app/ HTTP/1.1
+
+###
+
+GET https://7lxyqs-3000.csb.app/tasks HTTP/1.1
+
+###
+
+POST https://7lxyqs-3000.csb.app/tasks HTTP/1.1
+content-type: application/json
+
+{}
+
+###
+
+PUT https://7lxyqs-3000.csb.app/tasks/1 HTTP/1.1
+content-type: application/json
+
+{}
